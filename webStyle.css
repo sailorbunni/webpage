@@ -100,7 +100,17 @@ h1 {
 .title {
   margin-top: 40px;
 }
-
+.contact-icon,
+.icon {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 20px;
+  font-size: 25px;
+}
+.icon:hover {
+  color: var(--third-color)
+}
+}
 @media (max-width: 576px) {
   .profilePic,
   .certificate {
